@@ -1,0 +1,5 @@
+      <img 
+  src="/logo.png" 
+  alt="Designeezy Logo" 
+ className="w-[130px] md:w-[150px] h-auto object-contain"
+/>
