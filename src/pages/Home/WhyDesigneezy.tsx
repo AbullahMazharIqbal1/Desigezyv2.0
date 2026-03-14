@@ -64,7 +64,7 @@ export default function WhyDesigneezy() {
               <div className="absolute top-0 left-0 h-full w-[4px] bg-[#BCFF03] translate-y-full group-hover:animate-edge-left z-30 shadow-[0_0_15px_#BCFF03]" />
 
             </motion.div>
-          ))}
+          ))} 
         </div>
       </div>
 

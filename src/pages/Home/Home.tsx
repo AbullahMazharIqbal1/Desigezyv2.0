@@ -7,7 +7,7 @@ import Testimonials from './Testimonials';
 import FAQ from './FAQ';
 import MoreQuestions from './MoreQuestions';
 import Newsletter from './Newsletter';
-import CTA from './CTA';
+
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
       <FAQ />
       <MoreQuestions />
       <Newsletter />
-      <CTA />
+
       
     </main>
   );
