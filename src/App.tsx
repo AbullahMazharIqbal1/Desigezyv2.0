@@ -6,7 +6,7 @@ import Navbar from './components/NavBar';
 import Footer from './components/Footer';
 import VideoEditing from './pages/Services/VideoEditing/VideoEditing';
 import WebDevelopment from './pages/Services/WebDevelopment/WebDevelopment';
-
+import Portfolio from './pages/Portfolio/Portfolio';
 import CTA from './components/CTA';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/services/graphic-designing" element={<GraphicDesigning />} />
         <Route path="/services/video-editing" element={<VideoEditing />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
-        
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <CTA />
       <Footer />
