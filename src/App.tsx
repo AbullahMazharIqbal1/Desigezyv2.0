@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import VideoEditing from './pages/Services/VideoEditing/VideoEditing';
 import WebDevelopment from './pages/Services/WebDevelopment/WebDevelopment';
 import Portfolio from './pages/Portfolio/Portfolio';
+import About from './pages/About/About';
 import CTA from './components/CTA';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/services/video-editing" element={<VideoEditing />} />
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <CTA />
       <Footer />
