@@ -8,11 +8,14 @@ import VideoEditing from './pages/Services/VideoEditing/VideoEditing';
 import WebDevelopment from './pages/Services/WebDevelopment/WebDevelopment';
 import Portfolio from './pages/Portfolio/Portfolio';
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 import CTA from './components/CTA';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/services/web-development" element={<WebDevelopment />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <CTA />
       <Footer />
