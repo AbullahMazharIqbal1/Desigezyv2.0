@@ -11,6 +11,8 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import CTA from './components/CTA';
 import ScrollToTop from './components/ScrollToTop';
+import Shop from './pages/Shop/Shop';
+import ProductPage from './pages/Shop/ProductPage';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/shop/:id" element={<ProductPage />} />
       </Routes>
       <CTA />
       <Footer />
